@@ -12,9 +12,15 @@
       }
     },
     "production": {
+      "ios": {
+        "image": "latest"
+      },
       "android": {
         "buildType": "app-bundle"
       }
     }
+  },
+  "submit": {
+    "production": {}
   }
 }

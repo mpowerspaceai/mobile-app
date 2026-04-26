@@ -1,0 +1,8 @@
+#!/usr/bin/expect -f
+set timeout 30
+spawn npx eas-cli login
+expect "Email or username"
+send "mpowerspace.ai@gmail.com\r"
+expect "Password"
+send "BelalMaher100@@\r"
+expect eof

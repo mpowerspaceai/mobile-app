@@ -45,6 +45,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9c32dec5-aa54-4c5a-b49a-3a63230769a2"
+      }
+    },
+    "owner": "mpowerapace"
   }
 }
