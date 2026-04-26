@@ -3,9 +3,7 @@ import { StyleSheet, View, SafeAreaView, Platform } from 'react-native';
 import { WebView } from 'react-native-webview';
 
 export default function App() {
-  // Use local server for development since the absolute paths in the bundle 
-  // expect to be at the root (/) and not under (/app/).
-  const targetUrl = 'http://10.66.22.35:3001';
+  const targetUrl = 'https://mpowerspace.ai/app';
 
   return (
     <SafeAreaView style={styles.container}>
